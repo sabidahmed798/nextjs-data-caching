@@ -16,6 +16,10 @@ const Navber = () => {
       </li>
 
       <li>
+        <Link href="/books">Book</Link>
+      </li>
+
+      <li>
         <Link href="/dashboard">Dashboard</Link>
       </li>
     </>

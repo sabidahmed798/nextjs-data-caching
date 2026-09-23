@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Wireless ",
+      "id": "product-1",
+      "name": "Wireless Headphones",
       "price": 2500,
       "category": "Electronics",
       "brand": "Sony",
@@ -12,7 +12,7 @@
       "image": "https://i.ibb.co.com/5h4vQwX/headphones.jpg"
     },
     {
-      "id": 2,
+      "id": "product-2",
       "name": "Smart Watch",
       "price": 3500,
       "category": "Electronics",
@@ -23,7 +23,7 @@
       "image": "https://i.ibb.co.com/3N0LqYv/smartwatch.jpg"
     },
     {
-      "id": 3,
+      "id": "product-3",
       "name": "Running Shoes",
       "price": 2800,
       "category": "Fashion",
@@ -34,7 +34,7 @@
       "image": "https://i.ibb.co.com/YQqvJ8K/shoes.jpg"
     },
     {
-      "id": 4,
+      "id": "product-4",
       "name": "Laptop Backpack",
       "price": 1800,
       "category": "Accessories",
@@ -45,7 +45,7 @@
       "image": "https://i.ibb.co.com/8gKQYQ9/backpack.jpg"
     },
     {
-      "id": 5,
+      "id": "product-5",
       "name": "Mechanical Keyboard",
       "price": 4200,
       "category": "Electronics",
@@ -56,7 +56,7 @@
       "image": "https://i.ibb.co.com/6DqzL6M/keyboard.jpg"
     },
     {
-      "id": 6,
+      "id": "product-6",
       "name": "Cotton T-Shirt",
       "price": 950,
       "category": "Fashion",
@@ -65,6 +65,92 @@
       "rating": 4.2,
       "description": "Soft and comfortable cotton T-shirt suitable for everyday wear, casual outings, and relaxing at home.",
       "image": "https://i.ibb.co.com/4Z8qKcN/tshirt.jpg"
+    }
+  ],
+  "books": [
+    {
+      "id": "book-1",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 450,
+      "category": "Fiction",
+      "rating": 4.7,
+      "stock": 20,
+      "description": "A motivational story about a young shepherd who follows his dreams and discovers the meaning of life.",
+      "publishedYear": 1988,
+      "language": "English",
+      "pages": 208,
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f"
+    },
+    {
+      "id": "book-2",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 650,
+      "category": "Self Development",
+      "rating": 4.8,
+      "stock": 15,
+      "description": "A practical guide to building good habits, breaking bad habits, and making small changes that create remarkable results.",
+      "publishedYear": 2018,
+      "language": "English",
+      "pages": 320,
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e"
+    },
+    {
+      "id": "book-3",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 950,
+      "category": "Programming",
+      "rating": 4.6,
+      "stock": 10,
+      "description": "A popular programming book that teaches developers how to write clean, readable, maintainable, and professional code.",
+      "publishedYear": 2008,
+      "language": "English",
+      "pages": 464,
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765"
+    },
+    {
+      "id": "book-4",
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "price": 550,
+      "category": "Programming",
+      "rating": 4.4,
+      "stock": 18,
+      "description": "A concise guide to the powerful and useful features of JavaScript for developers who want to understand the language better.",
+      "publishedYear": 2008,
+      "language": "English",
+      "pages": 176,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+    },
+    {
+      "id": "book-5",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": 500,
+      "category": "Finance",
+      "rating": 4.5,
+      "stock": 25,
+      "description": "A personal finance book that explains different approaches to money, investing, financial education, and building wealth.",
+      "publishedYear": 1997,
+      "language": "English",
+      "pages": 336,
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f"
+    },
+    {
+      "id": "book-6",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "price": 700,
+      "category": "Finance",
+      "rating": 4.7,
+      "stock": 14,
+      "description": "A collection of stories and lessons about how people think about money, investing, saving, and financial decisions.",
+      "publishedYear": 2020,
+      "language": "English",
+      "pages": 256,
+      "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d"
     }
   ]
 }

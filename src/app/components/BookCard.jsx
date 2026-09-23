@@ -1,16 +1,19 @@
+import Link from "next/link";
 import React from "react";
 
 const BookCard = ({ book }) => {
+  const { id, title, description } = book;
+
   return (
-    <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="card bg-base-100  shadow-sm">
       <div className="card-body">
-        <h2 className="card-title">Card title!</h2>
-        <p>
-          A card component has a figure, a body part, and inside body there are
-          title and actions parts
-        </p>
+        <h2 className="card-title">{title}</h2>
+        <p>{description}</p>
         <div className="card-actions justify-end">
           <button className="btn btn-primary">Buy Now</button>
+          <Link>
+            <button className="btn btn-primary">Show Details</button>
+          </Link>
         </div>
       </div>
     </div>
